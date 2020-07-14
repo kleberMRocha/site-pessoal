@@ -3,10 +3,11 @@
     const header = document.querySelector('[data-header]');
     const progressBars = document.querySelectorAll('[data-progress]');
 
+    /*
     //header Parallax
     window.onload = function() {
         header.classList.add('parallax-window');
-    };
+    };*/
 
     //scroll
     let scroll = true;
