@@ -3,6 +3,7 @@ body{
     background: #2D3142;
 }
 
+/*Progress Bar*/
 @keyframes progress100 {
   from {width: 0%;}
   to {width: 100%;}
@@ -285,6 +286,42 @@ h3::before{
   position: relative;
   overflow: hidden;
 }
+
+/*contato*/
+
+.contato-link{
+  color: white;
+  font-size: 5em;
+  margin:2em;
+}
+
+.contato-link:hover{
+  text-shadow: 2px 4px #d34300;
+  transition: 0.3s;
+}
+
+.contato-link:active{
+ 
+  color:#f3dd9f;
+}
+ /* background by SVGBackgrounds.com */
+
+#contato{
+  
+ 
+}
+
+#contato h3{
+  color: #2D3142;
+  margin: 0;
+}
+
+#contato span{
+font-size: 0.2em;
+text-shadow: 0px 0px;
+}
+
+
 
 /*footer*/
 
