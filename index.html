@@ -12,9 +12,10 @@
 </head>
 <body>
 
+
     <div class="container">
 
-        <header class="parallax-window" data-parallax="scroll" data-image-src="./img/02.jpg">
+        <header data-header class="bg-dark" data-parallax="scroll" data-image-src="./img/02.jpg">
     
             <div class="menu">
                 <div>
@@ -55,25 +56,24 @@
      
     </div>
       
-   <main class="conteudo animate__animated animate__fadeIn animate__delay-500ms">
-
-    
-    <article class="text">
+    <article class="sobre">
          
            <div class="sec">
-            <h3>Sobre </h3>
-               <p>
-                Meu nome é <span class="destaque">Kleber</span>, sou graduado em 
-                <span class="destaque">Design</span> e <span class="destaque">Analise de sistemas</span> tenho mais de 7 anos de experiencia na área de TI na parte de infraestrutura e suporte atualmente estou tentando minha primeira oportunidade na área de desenvolvimento, focando meus estudos em <span class="destaque">nodeJs, React e javascript.</span>
-               </p>
-               <br>
-               <p>Amo Aprender coisas novas e compartilhar conhecimento.</p> 
+            <main class="conteudo animate__animated animate__fadeIn animate__delay-1ms">
+                <h3>Sobre </h3>
+                <p>
+                    Meu nome é <span class="destaque">Kleber</span>, sou graduado em 
+                    <span class="destaque">Design</span> e <span class="destaque">Analise de sistemas</span> tenho mais de 7 anos de experiencia na área de TI na parte de infraestrutura e suporte atualmente estou buscando minha primeira oportunidade na área de desenvolvimento, focando meus estudos em <span class="destaque">nodeJs, React e javascript.</span>
+                </p>
+                <br>
+                <p>Amo Aprender coisas novas e compartilhar conhecimento.</p> 
+            </main>   
            </div>
             
       
     </article>
 
-   </main>
+
  
     <section>
         <div class="container">
@@ -86,7 +86,7 @@
                             <i class="fa fa-html5" aria-hidden="true"></i>
                             HTML
                             <div class="meter orange nostripes">
-                                <span style="width: 100%; background-color:#47e000;"></span>
+                                <span data-progress="width: 100%; background-color:#47e000; transition:2s; animation-name: progress100;"></span>
                             </div>
                         </div>
                        
@@ -94,42 +94,45 @@
                             <i class="fab fa-css3-alt"></i>
                             CSS3
                             <div class="meter orange nostripes">
-                                <span style="width: 100%; background-color:#47e000;"></span>
+                                <span  data-progress="width: 100%; background-color:#47e000; animation-name: progress100;"></span>
                             </div>
                         </div>
                         <div class="skill">
                             <i class="fab fa-adobe"></i>
                             Pacote Adobe
                             <div class="meter orange nostripes">
-                                <span style="width: 80%; background-color:#5cd623;"></span>
+                                <span  data-progress="width: 80%; background-color:#5cd623; transition:2s; animation-name: progress80;"></span>
                             </div>
                         </div>
                         <div class="skill">
                             <i class="fab fa-node"></i>
                             NodeJs
                             <div class="meter orange nostripes">
-                                <span style="width: 50%; background-color:#c9bb3d;"></span>
+                                <span data-progress="width: 50%; background-color:#c9bb3d;
+                                animation-name: progress50;"></span>
                             </div>
                         </div>
                         <div class="skill">
                             <i class="fab fa-react"></i>
                             React
                             <div class="meter orange nostripes">
-                                <span style="width: 30%; background-color:#c47a19;"></span>
+                                <span  data-progress="width: 30%; background-color:#c47a19;
+                                animation-name: progress30;"></span>
                             </div>
                         </div>
                         <div class="skill">
                             <i class="fab fa-js"></i>
                             Javascript
                             <div class="meter orange nostripes">
-                                <span style="width: 60%; background-color:#c9bb3d;"></span>
+                                <span  data-progress="width: 60%; background-color:#c9bb3d;
+                                animation-name: progress60;"></span>
                             </div>
                         </div>
-                        <a  class="cursos" target='_blank' href="https://cursos.alura.com.br/user/klebermelo-14/fullCertificate/259c14ff79b493a72add321548ac8644">
-                            <i class="fas fa-chalkboard"></i> Cursos Livres Realizados
-                           </a> 
-                    </div>
 
+                    </div>
+                    <a  class="cursos" target='_blank' href="https://cursos.alura.com.br/user/klebermelo-14/fullCertificate/259c14ff79b493a72add321548ac8644">
+                        <i class="fas fa-chalkboard"></i> Cursos Livres Realizados
+                    </a> 
              
                             
                         </div>
@@ -177,6 +180,7 @@
 <script src="./js/parallax.min.js"></script>
 <script src="./js/progress.js"></script>
 <script src="./js/index.js"></script>
+
 </body>
 </html>
 
