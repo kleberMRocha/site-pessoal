@@ -2,16 +2,72 @@ body{
     font-family: 'Maven Pro', sans-serif;
     background: #2D3142;
 }
+
 .container{
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
+  position: relative;
+}
+
+.destaque{
+  background-color: #f3dd9f;
+  color: #04081b;
+  font-weight: bold;
+  
+}
+
+
+.sec{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  padding-bottom:1em;
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .sec {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .sec {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .sec {
+    width: 1170px;
+  }
+}
+
+
+header{
+ 
+  flex-flow: row;
+  background-image: url('../img/02.jpg');
+  background-size: cover;
+  height: 60vh;
+  
+}
+
+header::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#2D3142;;
+  clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
+
 }
 
 
 .foto{
 
-   max-width:80%;
+   max-width: 200px;
    height:auto;
    margin: 10px;
    padding: 5px;
@@ -21,24 +77,37 @@ body{
 }
 
 
-
 /*Menu*/
+
+.menu{
+  display: flex;
+  flex-flow: row;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  justify-content:space-between;
+}
+.redesS{
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.sites{
+  text-decoration: none;
+  color: #eef7f5;
+  font-size: 1.5em;
+}
+
+.sites:hover{
+
+  color: #ffbc01;
+
+}
 
 h1{
     font-size: 1.8em;
     color: white;
 }
-.menu{
-text-align: center;    
-  
-background-color:#222B4A;
-width: 300px;
-height: 100vh;
-background-image: url('../img/02.jpg');
-background-size: cover;
-box-shadow:1px 2px #070707;
 
-}
 
 .btn-menu{
     display:inline-block;
@@ -50,6 +119,7 @@ box-shadow:1px 2px #070707;
 }
 
 .button {
+  text-align: center;
   display: inline-flex;
   height: 40px;
   width: 150px;
@@ -81,7 +151,7 @@ box-shadow:1px 2px #070707;
   width: 100%;
   height: 100%;
   left: -200px;
-  background: #52b18c;
+  background: #ffbc01;
   position: absolute;
   transition: all .35s ease-Out;
   bottom: 0;
@@ -97,18 +167,6 @@ box-shadow:1px 2px #070707;
 }
 
 
-.sites{
-    text-decoration: none;
-    color: #eef7f5;
-    font-size: 2em;
-}
-
-.sites:hover{
-  
-    color: #52b18c;
-  
-}
-
 /*conteudo*/
 
 .conteudo{
@@ -117,8 +175,9 @@ box-shadow:1px 2px #070707;
 
 h3{
     font-size: 4em;
-    color: #52b18c;
+    color: #ffbc01;
     margin-top: 10px;
+    margin-bottom: 10px;
      
 }
 
@@ -127,21 +186,84 @@ h3::before{
     
 }
 
-#node {
-    display: inline-block;
-    width: 200px;
-    height:10px;
-    position: relative;
+/*parallax*/
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
 }
-
-.node{
-    color: white;
-    font-size: 3em;
-}
+/*skills*/
 
 .skills{
- 
-    background-color: rgb(44, 31, 8);
-    width: 300px;
-    margin-top: 20px;
+  height: 100%;
+  background-color: #2865c0;
+}
+
+.cursos{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+.container-skill{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.skill{
+  font-size: 1em;
+  text-align: center;
+  width: 300px;
+  margin:15px;
+
+}
+
+.skill i{
+  font-size: 5em;
+  text-align: center;
+  width: 300px;
+  margin:5px;
+
+}
+
+.meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+/*footer*/
+
+footer{
+  background: #2D3142;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: 10vh;
+  padding-top: 50px;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: #e0a500;
+
 }
