@@ -425,7 +425,18 @@ footer a{
   ##Screen = B/w 768px to 1024px
 */
 
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  .menu{
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+  }
 
   .sites{
     font-size: 3em;
@@ -479,7 +490,7 @@ h1{
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 622px) {
 
 
   /*Scroll top button*/
