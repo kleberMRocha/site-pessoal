@@ -1,14 +1,22 @@
 (()=>{
 
+    
+    const toggler = document.querySelector('[data-toggler]');
+    const menuDiv = document.querySelector('[data-menu]');
     const header = document.querySelector('[data-header]');
     const progressBars = document.querySelectorAll('[data-progress]');
     const top = document.querySelector('[data-top]');
 
-    /*
-    //header Parallax
-    window.onload = function() {
-        header.classList.add('parallax-window');
-    };*/
+
+console.log(menuDiv);
+
+    //mobile nav toggler
+    toggler.addEventListener('click',(event)=>{
+
+        menuDiv.classList.toggle("menu-visible");
+        event.target.classList.toggle("fa-times-circle");
+        
+    }); 
 
     //scroll
     let scroll = true;

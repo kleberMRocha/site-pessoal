@@ -12,10 +12,8 @@
     <title>Kleber Rocha</title>
 </head>
 <body>
-<script>
-    
 
-</script>
+   
    
     <div class="container">
         <a href="#top">
@@ -28,12 +26,33 @@
   
 
         <header data-header data-parallax="scroll" data-image-src="./img/02.jpg">
+            <button id="toggler" class="fas fa-bars" data-toggler>
+               
+            </button>
     
             <div class="menu">
                 <div>
                     <img  class='foto' src="./img/01.jpg" alt="kleber Melo">
                     <h1>Kleber Melo Rocha <span class="animate__animated animate__flash animate__infinite">|</span> </h1>   
                 </div>
+
+                <nav class="menu-mobile animate__animated animate__fadeInDown" data-menu>
+                    <ul>
+                     <div class="button" id="button-slide">
+                         <div id="slide"></div>
+                         <a href="#sobre" class="btn-menu">Sobre</a> 
+                      </div>
+                      <div class="button" id="button-slide">
+                         <div id="slide"></div>
+                         <a href="#contato" class="btn-menu">contato</a>
+                      </div>                    
+                      <div class="button" id="button-slide">
+                         <div id="slide"></div>
+                         <a href="#projetos" class="btn-menu">Projetos</a> 
+                      </div> 
+                                                                             
+                    </ul>
+                </nav>
             
                 <nav class="menu-p">
                     <ul>
@@ -68,7 +87,7 @@
      
     </div>
       
-    <article class="sobre" id="sobre">
+    <article  id="sobre">
          
            <div class="sec">
             <main class="conteudo animate__animated animate__fadeIn animate__delay-1ms">
@@ -124,6 +143,22 @@
                             <div class="meter orange nostripes">
                                 <span  data-progress="width: 60%; background-color:#c9bb3d;
                                 animation-name: progress60;"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <i class="fas fa-database"></i>
+                            Mysql
+                            <div class="meter orange nostripes">
+                                <span data-progress="width: 60%; background-color:#c9bb3d;
+                                animation-name: progress50;"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-git-alt"></i>
+                            Git
+                            <div class="meter orange nostripes">
+                                <span data-progress="width: 50%; background-color:#c9bb3d;
+                                animation-name: progress50;"></span>
                             </div>
                         </div>
                         <div class="skill">
