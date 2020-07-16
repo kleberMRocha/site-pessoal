@@ -12,7 +12,7 @@ header{
  
   flex-flow: row;
   background-size: cover;
-  height: 60vh;
+  height: 65vh;
   
 }
 
@@ -132,7 +132,7 @@ header{
 
 .foto{
 
-   max-width: 200px;
+   max-width: 210px;
    height:auto;
    margin: 10px;
    padding: 5px;
@@ -419,16 +419,14 @@ footer a{
 }
 
 
-
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
 
-
 @media (min-width: 768px) and (max-width: 1024px) {
-
+ 
   .menu{
     display: flex;
     flex-flow: column;
@@ -443,9 +441,9 @@ footer a{
     
   }
   .foto{
-    max-width: 300px;
-    height:auto;
-    margin: 10px;
+    margin-left: 200px;
+    max-width: 200px;
+    margin-left: 80px;
     padding: 5px;
     border-radius: 50%;
     border: #eef7f5 3px solid;
@@ -456,6 +454,7 @@ footer a{
   flex-flow: row;
   background-size: cover;
   height: 52vh;
+  font-size: .5em;
   
 }
 
@@ -480,8 +479,6 @@ h1{
 }
 
 
- 
-  
 }
 
 
