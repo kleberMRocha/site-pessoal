@@ -488,8 +488,12 @@ h1{
 */
 
 @media (min-width: 320px) and (max-width: 622px) {
+  .cursos{
+    margin: 0;
+  }
+  
 
-
+ 
   /*Scroll top button*/
 .top{
   cursor: pointer;
