@@ -1,14 +1,9 @@
 (()=>{
-
-    
-    const toggler = document.querySelector('[data-toggler]');
-    const menuDiv = document.querySelector('[data-menu]');
-    const header = document.querySelector('[data-header]');
+    const toggler      = document.querySelector('[data-toggler]');
+    const menuDiv      = document.querySelector('[data-menu]');
+    const header       = document.querySelector('[data-header]');
     const progressBars = document.querySelectorAll('[data-progress]');
-    const top = document.querySelector('[data-top]');
-
-
-console.log(menuDiv);
+    const top          = document.querySelector('[data-top]');
 
     //mobile nav toggler
     toggler.addEventListener('click',(event)=>{
@@ -45,7 +40,6 @@ console.log(menuDiv);
     }
         
       
-        
 
     });
 

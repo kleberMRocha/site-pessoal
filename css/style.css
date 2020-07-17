@@ -384,7 +384,7 @@ footer a{
 .projeto-link:hover{
   transition: 0.5s;
   opacity: 1;
-  background-color: #e6e6e6d5;
+  background-color: #e6e6e6e1;
  
 }
 
@@ -397,6 +397,38 @@ footer a{
  
  
 }
+.card{
+  
+  position: relative;
+  margin: 1em;
+  min-width: 300px;
+  height: 350px;
+  border:2px #1c1e2b solid;
+  
+}
+
+.card p{
+  
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ text-align: center;
+  
+}
+
+.card-icon{
+  z-index: -1;
+  position: absolute;
+  font-size: 150px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+   
+}
+
 .card-img{
 
  position: absolute; 
@@ -408,15 +440,7 @@ footer a{
  z-index: -1;
 }
 
-.card{
-  
-  position: relative;
-  margin: 1em;
-  min-width: 300px;
-  height: 350px;
-  border:2px #1c1e2b solid;
-  
-}
+
 
 
 /* 
@@ -480,7 +504,6 @@ h1{
 
 
 }
-
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
