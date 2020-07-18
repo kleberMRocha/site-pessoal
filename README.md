@@ -1,6 +1,6 @@
 #Site Pessoal 
 
-Desenvolvido com objetivo de ser meu portfolio
+Site/Portfólio 
 
 [https://klebermrocha.github.io/site-pessoal/](https://klebermrocha.github.io/site-pessoal/ "https://klebermrocha.github.io/site-pessoal/")
 
